@@ -1,17 +1,22 @@
+import styles from "./Header.module.css";
+
 export default function Header() {
   return (
-    <header>
-      <nav>
-        <a>Logo</a>
+    <header className={styles.containerHeader}>
+      <nav className={styles.containerNav}>
+        <a href="">Logo</a>
         <ul>
           <li>
-            <a>Home</a>
+            <a href="">Home</a>
           </li>
           <li>
-            <a>Galeria</a>
+            <a href="">Galeria</a>
           </li>
         </ul>
         <input />
+        <div>
+          <img alt="Foto do usuário" />
+        </div>
       </nav>
     </header>
   );

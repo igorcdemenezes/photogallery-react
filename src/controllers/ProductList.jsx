@@ -3,10 +3,12 @@ import Card from "../components/Card/Card";
 
 export default function ProductList() {
   return (
-    <div>
+    <>
       {products.map((product) => (
-        <Card key={product.id} product={product} />
+        <li key={product.id}>
+          <Card product={product} />
+        </li>
       ))}
-    </div>
+    </>
   );
 }

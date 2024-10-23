@@ -1,0 +1,15 @@
+.mainContainer {
+  /* display: flex;
+  flex-direction: column;
+  justify-content: space-around; */
+  /* border: 1px solid black; */
+  /* align-items: center; */
+}
+
+.listStyle {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  /* border: 1px solid green; */
+}
